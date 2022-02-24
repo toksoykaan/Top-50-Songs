@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE22877B27C7EDBB002DD4D8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22877A27C7EDBB002DD4D8 /* SecondViewController.swift */; };
 		BEBE944627C5644A00079D0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE944527C5644A00079D0F /* AppDelegate.swift */; };
 		BEBE944827C5644A00079D0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE944727C5644A00079D0F /* SceneDelegate.swift */; };
 		BEBE944F27C5644B00079D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE944E27C5644B00079D0F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE22877A27C7EDBB002DD4D8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BEBE944227C5644A00079D0F /* Top 50 Songs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top 50 Songs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE944527C5644A00079D0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBE944727C5644A00079D0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				BEBE945A27C564E600079D0F /* View.swift */,
-				BEBE945E27C5651B00079D0F /* Presenter.swift */,
-				BEBE946327C5654500079D0F /* Router.swift */,
+				BE22877A27C7EDBB002DD4D8 /* SecondViewController.swift */,
 				BEBE945C27C564FB00079D0F /* Interactor.swift */,
+				BEBE945E27C5651B00079D0F /* Presenter.swift */,
 				BEBE946127C5653800079D0F /* Entity.swift */,
+				BEBE946327C5654500079D0F /* Router.swift */,
 			);
 			path = "Viper Architecture";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE22877B27C7EDBB002DD4D8 /* SecondViewController.swift in Sources */,
 				BEBE946427C5654500079D0F /* Router.swift in Sources */,
 				BEBE945F27C5651B00079D0F /* Presenter.swift in Sources */,
 				BEBE945B27C564E600079D0F /* View.swift in Sources */,
