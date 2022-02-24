@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		BEBE944627C5644A00079D0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE944527C5644A00079D0F /* AppDelegate.swift */; };
 		BEBE944827C5644A00079D0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE944727C5644A00079D0F /* SceneDelegate.swift */; };
-		BEBE944A27C5644A00079D0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE944927C5644A00079D0F /* ViewController.swift */; };
-		BEBE944D27C5644A00079D0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE944B27C5644A00079D0F /* Main.storyboard */; };
 		BEBE944F27C5644B00079D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE944E27C5644B00079D0F /* Assets.xcassets */; };
 		BEBE945227C5644B00079D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE945027C5644B00079D0F /* LaunchScreen.storyboard */; };
+		BEBE945B27C564E600079D0F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE945A27C564E600079D0F /* View.swift */; };
+		BEBE945D27C564FB00079D0F /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE945C27C564FB00079D0F /* Interactor.swift */; };
+		BEBE945F27C5651B00079D0F /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE945E27C5651B00079D0F /* Presenter.swift */; };
+		BEBE946227C5653800079D0F /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE946127C5653800079D0F /* Entity.swift */; };
+		BEBE946427C5654500079D0F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE946327C5654500079D0F /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEBE944227C5644A00079D0F /* Top 50 Songs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top 50 Songs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE944527C5644A00079D0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBE944727C5644A00079D0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEBE944927C5644A00079D0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEBE944C27C5644A00079D0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEBE944E27C5644B00079D0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBE945127C5644B00079D0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBE945327C5644B00079D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBE945A27C564E600079D0F /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		BEBE945C27C564FB00079D0F /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		BEBE945E27C5651B00079D0F /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		BEBE946127C5653800079D0F /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		BEBE946327C5654500079D0F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		BEBE944427C5644A00079D0F /* Top 50 Songs */ = {
 			isa = PBXGroup;
 			children = (
+				BEBE945927C5649A00079D0F /* Viper Architecture */,
 				BEBE944527C5644A00079D0F /* AppDelegate.swift */,
 				BEBE944727C5644A00079D0F /* SceneDelegate.swift */,
-				BEBE944927C5644A00079D0F /* ViewController.swift */,
-				BEBE944B27C5644A00079D0F /* Main.storyboard */,
 				BEBE944E27C5644B00079D0F /* Assets.xcassets */,
 				BEBE945027C5644B00079D0F /* LaunchScreen.storyboard */,
 				BEBE945327C5644B00079D0F /* Info.plist */,
 			);
 			path = "Top 50 Songs";
+			sourceTree = "<group>";
+		};
+		BEBE945927C5649A00079D0F /* Viper Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE945A27C564E600079D0F /* View.swift */,
+				BEBE945E27C5651B00079D0F /* Presenter.swift */,
+				BEBE946327C5654500079D0F /* Router.swift */,
+				BEBE945C27C564FB00079D0F /* Interactor.swift */,
+				BEBE946127C5653800079D0F /* Entity.swift */,
+			);
+			path = "Viper Architecture";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +144,6 @@
 			files = (
 				BEBE945227C5644B00079D0F /* LaunchScreen.storyboard in Resources */,
 				BEBE944F27C5644B00079D0F /* Assets.xcassets in Resources */,
-				BEBE944D27C5644A00079D0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEBE944A27C5644A00079D0F /* ViewController.swift in Sources */,
+				BEBE946427C5654500079D0F /* Router.swift in Sources */,
+				BEBE945F27C5651B00079D0F /* Presenter.swift in Sources */,
+				BEBE945B27C564E600079D0F /* View.swift in Sources */,
+				BEBE946227C5653800079D0F /* Entity.swift in Sources */,
+				BEBE945D27C564FB00079D0F /* Interactor.swift in Sources */,
 				BEBE944627C5644A00079D0F /* AppDelegate.swift in Sources */,
 				BEBE944827C5644A00079D0F /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEBE944B27C5644A00079D0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEBE944C27C5644A00079D0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEBE945027C5644B00079D0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +306,6 @@
 				INFOPLIST_FILE = "Top 50 Songs/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +317,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +333,6 @@
 				INFOPLIST_FILE = "Top 50 Songs/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
