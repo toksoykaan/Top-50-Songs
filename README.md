@@ -1,4 +1,4 @@
-# Top-50-Songs
+# Top 50 Songs
 Viper implementation on retrieving 50 top songs with public API
 
 App retrieves 50 items from "https://rss.applemarketingtools.com/api/v2/us/music/most-played/50/albums.json" and shows them on a TableView Controller
