@@ -7,10 +7,12 @@ Every step of VIPER works.
 
 Problems need to be fixed:
 
-1 - Cache response once it arrives
+1 - Cache API response when it arrives
 2 - Search Bar optimisation (after 1 this will be fixed automatically)
 3 - SecondViewController UI imrovements
 4 - Refresh func needs to retrieve images
 5 - General UI improvements
+
+Hours spent : 7
 
 
